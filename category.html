@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/font-awesome.min.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/animate.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/structure.css" />
+    <title>Category</title>
+  </head>
+  <body>
+    <section class="category-container">
+      <!-- <div class="breaking-news">
+        <span id="btext">Breaking news</span>
+        <marquee direction="left">
+          <a href="#" class="berita">
+            <pre id="time">16 MEI 2022, Anime One Piece melakukan perbaikan grafik'</pre>
+          </a>
+          <a href="#" class="berita">
+            <pre id="time">
+              19 MAEI 2022,  UNAS menjadi Universitas terbaik di Dunia"
+            </pre>
+          </a>
+          <a href="#" class="berita">
+            <pre id="time">
+              24 Mei 2022,  Rumah padat penduduk di Jakarta Barat mengalami kebakaran yang hebat
+            </pre>
+          </a>
+        </marquee>
+      </div> -->
+      <header id="header">
+        <div class="container">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button
+                  type="button"
+                  class="navbar-toggle collapsed"
+                  data-toggle="collapse"
+                  data-target="#navbar"
+                  aria-expanded="false"
+                  aria-controls="navbar"
+                >
+                  <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                  <span class="icon-bar"></span> <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="./home.php"><span>Berita</span>Unas</a>
+              </div>
+              <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav custom_nav">
+                  <li class=""><a href="./home.php">Home</a></li>
+                  <li class="dropdown">
+                    <a
+                      href="./category.html"
+                      role="button"
+                      aria-expanded="false"
+                      >Category</a
+                    >
+                  </li>
+                  <li><a href="./about.html">About</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <form id="searchForm">
+            <input type="text" placeholder="Search..." />
+            <input type="submit" value="" />
+          </form>
+        </div>
+      </header>
+
+      <section class="category-body" id="category">
+        <div class="title">CATEGORIES</div>
+        <div class="categories">
+          <a href="#sport-category" class="category sport">
+            <img src="./assets/images/sport.png" alt="sport" class="category-icon" />
+            <p class="category-name">Sport</p>
+          </a>
+
+          <a href="#health-category" class="category health">
+            <img src="./assets/images/health.png" alt="health" class="category-icon" />
+            <p class="category-name">Health</p>
+          </a>
+
+          <a href="#weather-category" class="category weather">
+            <img src="./assets/images/weather.png" alt="weather" class="category-icon" />
+            <p class="category-name">Weather</p>
+          </a>
+
+          <a href="#lifestyle-category" class="category lifestyle">
+            <img src="./assets/images/lifestyle.png" alt="lifestyle" class="category-icon" />
+            <p class="category-name">Lifestyle</p>
+          </a>
+
+          <a href="#transportation-category" class="category transportation">
+            <img
+              src="./assets/images/transportation.png"
+              alt="transportation"
+              class="category-icon"
+            />
+            <p class="category-name">Transportation</p>
+          </a>
+        </div>
+      </section>
+    </section>
+    <script src="./assets/bootstrap/js/jquery.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/bootstrap/js/wow.min.js"></script>
+    <script src="./assets/bootstrap/js/custom.js"></script>
+  </body>
+</html>
